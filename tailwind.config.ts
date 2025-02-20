@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        jost: ["Jost", "sans-serif"],
+        lobster: ["Lobster", "sans-serif"],
+      },
     },
   },
   plugins: [],
