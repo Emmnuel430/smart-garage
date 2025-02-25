@@ -3,6 +3,8 @@ import { useEffect } from "react";
 
 const useNavbarInteractions = () => {
   useEffect(() => {
+    if (typeof window === "undefined") return; // Évite l'exécution côté serveur
+
     /*~~~~~~~~~~~~~~~ TOGGLE BUTTON ~~~~~~~~~~~~~~~*/
     const navMenu = document.getElementById("nav-menu");
     const navLinks = document.querySelectorAll(".nav-link");

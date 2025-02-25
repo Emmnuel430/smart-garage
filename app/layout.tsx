@@ -7,6 +7,8 @@ export const metadata: Metadata = {
   description: "Solution complète pour la gestion de garages",
 };
 
+export const dynamic = "force-dynamic";
+
 export default function RootLayout({
   children,
 }: {
