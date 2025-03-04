@@ -17,11 +17,11 @@ export default function RootLayout({
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        {/* <meta name="theme-color" content="#0D47A1" /> */}
-
-        {/* Icônes */}
-        {/* <link rel="icon" href="/favicon.ico" /> */}
-        <link rel="icon" href="/logo.ico" type="image/png" />
+        <link
+          rel="icon"
+          href="https://smartgarage.asnumeric.com/uploads/logo.png"
+          type="image/png"
+        />
 
         {/* Liens CSS */}
         <link
@@ -32,8 +32,6 @@ export default function RootLayout({
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
         />
-
-        <title>SmartGarage</title>
       </head>
       <body className="bg-blue-950 text-white tracking-wide font-jost">
         {/* Contenu */}
