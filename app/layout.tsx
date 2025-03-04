@@ -5,6 +5,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "SmartGarage",
   description: "Solution complète pour la gestion de garages",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
@@ -20,11 +23,11 @@ export default function RootLayout({
         {/* <meta name="theme-color" content="#0D47A1" /> */}
 
         {/* Icônes */}
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
         <link
           rel="icon"
-          href="https://smartgarage.asnumeric.com/uploads/logo.png"
           type="image/png"
+          href="https://smartgarage.asnumeric.com/uploads/logo.png"
         />
 
         {/* Liens CSS */}
