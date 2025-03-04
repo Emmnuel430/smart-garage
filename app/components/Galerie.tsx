@@ -26,7 +26,7 @@ export default function ImageCarousel() {
   return (
     <section className="flex flex-col items-center p-6 bg-blue-800">
       <div className="text-center mb-6 gallery__text">
-        <h2 className="text-red-500 font-lobster text-3xl">
+        <h2 className="text-red-500 font-lobster">
           Découvrez notre solution de gestion optimisée ! 🚀
         </h2>
         <p className="mt-2 text-white max-w-2xl">

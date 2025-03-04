@@ -1,4 +1,4 @@
-import { modules } from "./data/modulesData";
+import { modules } from "./data/modulesPremiumData";
 
 const PopularModules = () => {
   return (
@@ -18,10 +18,11 @@ const PopularModules = () => {
         {modules.map((module, index) => (
           <div
             key={index}
-            className={`popular__card p-6 rounded-md text-white text-center flex items-center justify-center hover:shadow-2xl hover:-translate-y-2 duration-300 ${module.bgColor}`}
+            className={`popular__card p-6 rounded-md text-white text-center flex flex-col items-center justify-center hover:shadow-2xl hover:-translate-y-2 duration-300 ${module.bgColor}`}
           >
-            <i className={`${module.icon} text-3xl`}></i>
-            <span className="ml-2">{module.title}</span>
+            <i className={`${module.icon} text-5xl`}></i>
+            <span className="ml-2 font-bold">{module.title}</span>
+            <p className="mt-2 text-sm opacity-90">{module.description}</p>
           </div>
         ))}
       </div>
