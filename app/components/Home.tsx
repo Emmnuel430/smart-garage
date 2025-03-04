@@ -44,7 +44,9 @@ export default function HomeSection() {
       : "Aucun service sélectionné";
 
     // Numéro WhatsApp de destination (remplace par ton numéro)
-    const whatsappNumber = `225${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER}`; // Remplace par ton numéro sans "+"
+    const whatsappNumber = `225${
+      process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "0140003279"
+    }`; // Remplace par ton numéro sans "+"
 
     // Construire le message
     const message = `🌟 *Demande de devis* 🌟%0A%0A

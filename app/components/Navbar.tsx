@@ -52,14 +52,6 @@ export default function Navbar() {
                 Avis clients
               </Link>
             </li>
-            <li>
-              <Link
-                href="https://smartgarage.asnumeric.com/pricing"
-                className="nav-link"
-              >
-                Tarifs
-              </Link>
-            </li>
           </ul>
 
           {/* Décorations */}

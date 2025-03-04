@@ -66,7 +66,6 @@ const Footer = () => {
             <Link href="#home">Accueil</Link>
             <Link href="#about">À propos</Link>
             <Link href="#popular">Fonctionnalités</Link>
-            <Link href="https://smartgarage.asnumeric.com/pricing">Tarifs</Link>
             <Link href="#">Contact</Link>
           </div>
         </div>
