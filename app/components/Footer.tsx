@@ -2,6 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
+  // Formatage du numéro de téléphone
+  const formatPhoneNumber = (number: string) => {
+    return number.replace(/(\d{2})(?=(\d{2})+(?!\d))/g, "$1 ");
+  };
   return (
     <footer className="bg-red-100 text-blue-950 mt-20 pt-20 pb-10 md:pt-28 relative">
       {/* Newsletter */}
@@ -82,7 +86,12 @@ const Footer = () => {
         <div>
           <p className="mb-5 font-bold text-xl">Nous Contacter</p>
           <div className="flex flex-col gap-2">
-            <Link href="#">📞 +225 01 40 00 7932</Link>
+            <Link href="#">
+              📞{" "}
+              {`+225 ${formatPhoneNumber(
+                process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || ""
+              )}`}
+            </Link>
             <Link href="#">📧 info@asnumeric.com</Link>
             <Link href="#">
               📍 Cocody Riviera Palmeraie, Abidjan, Côte d&apos;Ivoire
