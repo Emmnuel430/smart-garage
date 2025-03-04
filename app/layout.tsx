@@ -17,6 +17,10 @@ export default function RootLayout({
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        {/* <meta name="theme-color" content="#0D47A1" /> */}
+
+        {/* Icônes */}
+        <link rel="icon" href="/favicon.ico" />
         <link
           rel="icon"
           href="https://smartgarage.asnumeric.com/uploads/logo.png"
