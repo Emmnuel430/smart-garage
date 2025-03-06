@@ -6,7 +6,7 @@ export default function WhatsApp() {
   return (
     <div className="fixed bottom-0 z-10 w-full grid p-2 place-content-end">
       <Link
-        href={`https://wa.me/+225${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER}`}
+        href={`https://wa.me/+2250140003279`}
         target="_blank"
         className="whatsapp"
       >
