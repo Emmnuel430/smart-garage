@@ -87,9 +87,7 @@ const Footer = () => {
           <div className="flex flex-col gap-2">
             <Link href="#">
               📞{" "}
-              {`+225 ${formatPhoneNumber(
-                "01 40 00 3279"
-              )}`}
+              {`+2250140003279`}
             </Link>
             <Link href="#">📧 info@asnumeric.com</Link>
             <Link href="#">
