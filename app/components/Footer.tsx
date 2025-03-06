@@ -88,7 +88,7 @@ const Footer = () => {
             <Link href="#">
               📞{" "}
               {`+225 ${formatPhoneNumber(
-                process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "01 40 00 3279"
+                "01 40 00 3279"
               )}`}
             </Link>
             <Link href="#">📧 info@asnumeric.com</Link>
