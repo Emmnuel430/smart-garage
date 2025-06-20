@@ -12,7 +12,7 @@ const useScrollReveal = () => {
         distance: "60px",
         duration: 1500,
         delay: 300,
-        reset: true, // Mettre à false si on ne veut pas rejouer l’animation
+        reset: false, // Mettre à false si on ne veut pas rejouer l’animation
       });
 
       sr.reveal(
